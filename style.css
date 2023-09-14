@@ -1,0 +1,274 @@
+:root {
+    --acent-color: #DD2242;
+    --title-color: #FFF;
+    --text-color: #939393;
+    --black-title: #010A20;
+    --btn-text: rgba(255, 255, 255, 0.80);
+}
+
+.body {
+    font-family: DM Sans;
+}
+
+.logo {
+    color: var(--title-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 23.961px;
+    font-weight: 900;
+    line-height: 80.5%;
+    letter-spacing: 0.315px;
+    text-transform: uppercase;
+}
+
+.navigation-item {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.search-img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.hero-title {
+    color: var(--title-color);
+    font-family: Roboto;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 1.08;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    border-radius: 211px;
+    background: var(--acent-color);
+    display: flex;
+    width: 271.141px;
+    height: 82px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-item {
+    color: var(--acent-color);
+}
+
+.small-hero-title {
+    color: var(--title-color);
+    font-size: 26.409px;
+    font-weight: 700;
+    line-height: 155.556%;
+}
+
+.hero-paragraph {
+    color: #939393;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: 0.5px;
+}
+
+.about-title {
+    color: var(--title-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 119.048%;
+}
+
+.about-paragraph {
+    color: var(--Text-Lighten, #E0E0E0);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: 0.18px;
+}
+
+.about-btn {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    border-radius: 32px;
+    background: var(--acent-color);
+    width: 179.813px;
+    padding: 16px 24px;
+    gap: 24px;
+}
+
+.secrets-title {
+    color: var(--black-title);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.numbers-title {
+    color: var(--title-color);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.numbers-paragraph {
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: 0.5px;
+}
+
+.list-title {
+    color: var(--acent-color);
+    font-size: 42.137px;
+    font-weight: 700;
+    line-height: 116.667%;
+    letter-spacing: 0.386px;
+}
+
+.list-paragraph {
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: 0.5px;
+}
+
+.landscape-title {
+    color: var(--black-title);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 119.048%;
+}
+
+.landscape-paragraph {
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: 0.5px;
+}
+
+.landscape-btn {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    border-radius: 32px;
+    background: var(--acent-color);
+    width: 179.813px;
+    padding: 16px 24px;
+    gap: 24px;
+}
+
+.life-title {
+    color: var(--colors-white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 119.048%;
+}
+
+.life-item-title {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.life-list-paragraph {
+    color: var(--text-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: 0.5px;
+}
+
+.gallery-title {
+    color: var(--black-title);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.gallery-paragraph {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+    letter-spacing: 0.18px;
+}
+
+.route-title {
+    color: var(--black-title);
+    font-family: DM Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.route-item {
+    color: var(--acent-color);
+}
+
+.route-item-title {
+    color: var(--black-title);
+    font-size: 26.409px;
+    font-weight: 700;
+    line-height: 155.556%;
+}
+
+.route-item-paragraph {
+    color: var(--text-color);
+    font-size: 23.475px;
+    font-weight: 400;
+    line-height: 162.5%;
+}
+
+.route-btn {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    border-radius: 32px;
+    background: var(--acent-color);
+    width: 179.813px;
+    padding: 16px 24px;
+    gap: 24px;
+}
+
+.footer-item {
+    color: var(--title-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 155.556%;
+    letter-spacing: 0.5px;
+}
+
+.footer-text {
+    color: var(--title-color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 155.556%;
+    letter-spacing: 0.5px;
+}
