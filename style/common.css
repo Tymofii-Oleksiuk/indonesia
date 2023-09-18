@@ -1,0 +1,21 @@
+:root {
+    --acent-color: #DD2242;
+    --title-color: #FFF;
+    --text-color: #939393;
+    --black-title: #010A20;
+    --btn-text: rgba(255, 255, 255, 0.80);
+}
+
+body {
+    font-family: DM Sans;
+    background: red;
+}
+
+.container {
+    width: 1640px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: blue solid;
+}

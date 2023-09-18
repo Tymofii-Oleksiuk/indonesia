@@ -1,16 +1,3 @@
-:root {
-    --acent-color: #DD2242;
-    --title-color: #FFF;
-    --text-color: #939393;
-    --black-title: #010A20;
-    --btn-text: rgba(255, 255, 255, 0.80);
-}
-
-body {
-    font-family: DM Sans;
-    background: red;
-}
-
 .logo {
     color: var(--title-color);
     font-feature-settings: 'clig' off, 'liga' off;
